@@ -12,15 +12,21 @@
     <div class="container-fluid">
 
         <div class="row d-flex">
-            <div class="col-sm-12 col-lg-7 col-md-6">
+            <div class="col-sm-12 col-lg-7 col-md-6 d-flex" id="leftdiv">
 
-                <img src="img/myimg.png" alt="background img" id="imgleft">
+                <!-- <img src="img/myimg.png" alt="background img" id="imgleft"> -->
 
-                <div class="container" id="linkedin">
-                    <img src="img/linkedIn.png" alt="Icon">
+                <div class="container socialmediadiv" id="linkedin" >
+                    <img src="img/linkedIn.png" alt="Icon" class="iconimg"> SignUp with LinkedIn
+                </div>
+                <div class="container socialmediadiv" id="Twitter" >
+                    <img src="img/twitter.png" alt="Icon" class="iconimg"> SignUp with Twitter
+                </div>
+                <div class="container socialmediadiv" id="Facebook" >
+                    <img src="img/linkedIn.png" alt="Icon" class="iconimg"> SignUp with Facebook
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-5 col-md-6 signupPage">
+            <div class="col-sm-12 col-lg-5 col-md-6 signupPage " id="rightdiv">
                <div id="signup">
                     <h1>
                         Sign Up
@@ -31,7 +37,7 @@
                 <h3>
                     Get Started Absolutely Free
                 </h3>
-                <form action="" id="myForm">
+                <form action="" id="myForm" required>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" id="email" placeholder="name@example.com">
                     <label for="floatingInput">Email address</label>
