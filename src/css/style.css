@@ -1,0 +1,31 @@
+/* 4282077 1 */
+
+/* position: absolute;
+width: 1344px;
+height: 900px;
+left: -624px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(98, 98, 98, 0.79) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.3) 96.87%), url(4282077.jpg);
+opacity: 0.9;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+* {
+    margin: 0;
+    padding: 0;
+}
+.signupPage h1, .signupPage h3{
+    display: block;
+}
+#signup {
+    width: 100%;
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+#checkboxwrite {
+    font-size: 10px;
+}
+#imgleft {
+    /* position: absolute; */
+    width: 100%;
+}
