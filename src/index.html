@@ -13,50 +13,45 @@
 
         <div class="row d-flex">
             <div class="col-sm-12 col-lg-7 col-md-6 d-flex" id="leftdiv">
-
-                <!-- <img src="img/myimg.png" alt="background img" id="imgleft"> -->
-
-                <div class="container socialmediadiv" id="linkedin" >
-                    <img src="img/linkedIn.png" alt="Icon" class="iconimg"> SignUp with LinkedIn
-                </div>
-                <div class="container socialmediadiv" id="Twitter" >
-                    <img src="img/twitter.png" alt="Icon" class="iconimg"> SignUp with Twitter
-                </div>
-                <div class="container socialmediadiv" id="Facebook" >
-                    <img src="img/linkedIn.png" alt="Icon" class="iconimg"> SignUp with Facebook
-                </div>
+                <a href="#"> <div class=" socialmediadiv" id="linkedin" >
+                    <img src="img/linkedIn.png" alt="Icon" class="iconimg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SignUp with LinkedIn
+                </div> </a>
+                <a href="#"><div class=" socialmediadiv" id="Twitter" >
+                    <img src="img/twitter.png" alt="Icon" class="iconimg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SignUp with Twitter
+                </div></a>
+                <a href="#"><div class=" socialmediadiv" id="Facebook" >
+                    <img src="img/facebook.jpeg" alt="Icon" class="iconimg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SignUp with Facebook
+                </div></a>
             </div>
-            <div class="col-sm-12 col-lg-5 col-md-6 signupPage " id="rightdiv">
-               <div id="signup">
+            <div class="col-sm-12 col-lg-5 col-md-6 signupPage d-flex" id="rightdiv">
                     <h1>
                         Sign Up
                     </h1>
-               </div>
-                
                 <br>
                 <h3>
                     Get Started Absolutely Free
                 </h3>
-                <form action="" id="myForm" required>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" id="email" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                  </div>
-                  <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" id="password" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                </div>
-                <br>
-                <input type="checkbox" name="check" id="check"> 
-                <label for="check" id="checkboxwrite">Creating an account means you’re okay with our Terms of Service, Privacy Policy, and default Notification Settings
-                </label>
-                <br>
-                <button>Submit</button>
-            </form>
+                <form action="" id="myForm">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" id="email" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" id="password" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <br>
+                    <input type="checkbox" name="check" id="check"> 
+                    <label for="check" id="checkboxwrite">Creating an account means you’re okay with our Terms of Service, Privacy Policy, and default Notification Settings
+                    </label>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary submitbtn" >Sign Up</button>
+                </form>
             </div>
         </div>
 
     </div>
     
+    <script src="/js/script.js"></script>
 </body>
 </html>

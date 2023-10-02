@@ -1,17 +1,16 @@
-function handleSubmit(event) {
-    event.preventDefault(); // Prevent the default form submission
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submission
 
-    // Access form elements by their IDs
-    
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
+        // Get the values from the form inputs
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
 
-    // Print values to the console
-    
-    console.log("Email: " + email);
-    console.log("password: " + password);
-}
+        // You can perform further validation or send the data to a server here
+        // For now, let's just log the values to the console
+        console.log("Email: " + email);
+        console.log("Password: " + password);
 
-// Add an event listener to the form
-var form = document.getElementById("myForm");
-form.addEventListener("click", handleSubmit);
+        
+    });
+});

@@ -1,14 +1,3 @@
-/* 4282077 1 */
-
-/* position: absolute;
-width: 1344px;
-height: 900px;
-left: -624px;
-top: 0px;
-
-background: linear-gradient(180deg, rgba(98, 98, 98, 0.79) 0%, rgba(0, 0, 0, 0) 0.01%, rgba(0, 0, 0, 0.3) 96.87%), url(4282077.jpg);
-opacity: 0.9;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 * {
     margin: 0;
     padding: 0;
@@ -39,16 +28,35 @@ button {
 }
 .socialmediadiv {
    
+    font-size: 10px;
     background-color: white;
     padding-left: 25px;
     padding-top: 7px;
     height: 40px;
     margin-top: 20px;
     border-radius: 20px;
+    width: 260px;
 }
 #leftdiv {
     background-image: url("/img/myimg.png");
     background-repeat: no-repeat;
     height: 100vh;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#rightdiv {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submitbtn {
+    width: 280px;
+    
+}
+#leftdiv a {
+    text-decoration: none;
+    color: black;
 }
